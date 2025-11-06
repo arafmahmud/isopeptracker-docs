@@ -28,19 +28,11 @@ IsoPepTracker enables researchers to:
 Key Features
 ------------
 
-* **Multi-Isoform Peptide Comparison**: Interactive comparison of peptides across multiple transcript isoforms
-* **Alternative Splicing Visualization**: Visualize 5 AS event types (SE, A3SS, A5SS, MXE, RI) in canonical isoforms
-* **Enzyme Digestion Simulation**: Analyze peptides from 6 proteases:
-
-  * Trypsin
-  * Chymotrypsin
-  * AspN
-  * LysC
-  * LysN
-  * GluC
-
-* **Novel Isoform Analysis**: Identify and characterize novel peptides from alternative splicing
-* **BLASTP Integration**: Search peptides against protein databases for functional annotation
+* **Interactive Peptide Visualization**: Compare peptides across isoforms
+* **Comprehensive Protease Support**: Analyze peptide cleavage patterns for 6 different proteases (Trypsin, Chymotrypsin, AspN, LysC, LysN, GluC)
+* **Alternative Splicing Integration**: Visualize 5 AS event types (SE, A3SS, A5SS, MXE, RI) and their impact on peptide generation
+* **Novel Isoform Analysis**: Identify and characterize novel isoforms using peptides unique to the novel isoform identified through RNASeq or long read RNASeq
+* **Peptide Search**: Search and visualize peptides across isoforms
 * **AS Tool Support**: Process and visualize peptide consequences from rMATS and SplAdder outputs
 
 Getting Started
