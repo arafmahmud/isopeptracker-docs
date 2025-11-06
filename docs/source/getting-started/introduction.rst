@@ -15,15 +15,6 @@ IsoPepTracker is a powerful bioinformatics tool designed to visualize alternativ
    
    IsoPepTracker web application overview
 
-Purpose
--------
-
-IsoPepTracker enables researchers to:
-
-* Analyze canonical and its associated peptides across different transcript isoforms
-* Identify novel peptides arising from novel isoforms discovered through RNASeq or long read RNA sequencing
-* Search for peptides across transcripts
-* Visualize alternative splicing events and their impact on peptide generation
 
 Key Features
 ------------
