@@ -7,48 +7,336 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>IsoPepTracker Documentation</h1>
-            <p class="subtitle">Interactive peptide visualizer for alternative splicing analysis</p>
-            <p style="text-align: center; margin-top: 10px;">
-                <a href="https://isopeptracker.org" style="color: #3498db;">Visit IsoPepTracker</a>
-            </p>
-        </header>
+    <nav class="sidebar">
+        <div class="sidebar-header">
+            <h2>IsoPepTracker</h2>
+            <p>Documentation</p>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="#welcome" class="nav-link active">Welcome</a></li>
+            <li><a href="#canonical" class="nav-link">Canonical</a></li>
+            <li><a href="#novel" class="nav-link">Novel</a></li>
+            <li><a href="#peptide-search" class="nav-link">Peptide Search</a></li>
+            <li><a href="#alternative-splicing" class="nav-link">Alternative Splicing</a></li>
+            <li class="nav-divider"></li>
+            <li><a href="https://isopeptracker.org" class="nav-link external" target="_blank">Web Application</a></li>
+            <li><a href="https://github.com/HuangLabAtUAB/IsoPepTracker" class="nav-link external" target="_blank">GitHub</a></li>
+        </ul>
+    </nav>
 
-        <main>
-            <div class="modules-grid">
-                <a href="canonical.html" class="module-card">
-                    <h2>Canonical</h2>
-                    <p>Analyze canonical peptides across isoforms with three analysis modes:</p>
-                    <ul>
-                        <li>Overview</li>
-                        <li>Events-Centric</li>
-                        <li>Isoform-Centric</li>
-                    </ul>
-                </a>
-
-                <a href="novel.html" class="module-card">
-                    <h2>Novel</h2>
-                    <p>Identify and characterize novel peptides from alternative splicing events with BLASTP annotation</p>
-                </a>
-
-                <a href="peptide-search.html" class="module-card">
-                    <h2>Peptide Search</h2>
-                    <p>Search for specific peptides across the database</p>
-                </a>
-
-                <a href="alternative-splicing.html" class="module-card">
-                    <h2>Alternative Splicing Analysis</h2>
-                    <p>Visualize 5 types of alternative splicing events (SE, A3SS, A5SS, MXE, RI) with rMATS and SplAdder support</p>
-                </a>
+    <main class="main-content">
+        <!-- Welcome Section -->
+        <section id="welcome" class="content-section">
+            <h1>Welcome to IsoPepTracker!</h1>
+            
+            <div class="intro-text">
+                <p>IsoPepTracker is an interactive peptide visualizer for alternative splicing analysis. It provides a comprehensive platform for analyzing peptides across transcript isoforms, identifying novel peptides from alternative splicing events, and visualizing splicing impacts on the proteome.</p>
             </div>
-        </main>
 
-        <footer>
-            <p>Web Application: <a href="https://isopeptracker.org" target="_blank">isopeptracker.org</a></p>
-            <p>GitHub: <a href="https://github.com/HuangLabAtUAB/IsoPepTracker" target="_blank">HuangLabAtUAB/IsoPepTracker</a></p>
-        </footer>
-    </div>
+            <h2>What is IsoPepTracker?</h2>
+            <p>IsoPepTracker is a powerful bioinformatics tool designed to visualize alternative splicing events, map peptides to genomic coordinates, and compare protein isoforms at the peptide level. The tool provides four main modules for comprehensive peptide and splicing analysis.</p>
+
+            <div class="modules-overview">
+                <div class="module-card-inline">
+                    <h3>1. Canonical</h3>
+                    <p>Analyze canonical peptides across isoforms with three analysis modes</p>
+                </div>
+                <div class="module-card-inline">
+                    <h3>2. Novel</h3>
+                    <p>Identify and characterize novel peptides from alternative splicing</p>
+                </div>
+                <div class="module-card-inline">
+                    <h3>3. Peptide Search</h3>
+                    <p>Search for specific peptides across the database</p>
+                </div>
+                <div class="module-card-inline">
+                    <h3>4. Alternative Splicing</h3>
+                    <p>Visualize and analyze alternative splicing events</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Canonical Module -->
+        <section id="canonical" class="content-section">
+            <h1>Canonical Module</h1>
+            <p class="section-subtitle">Analyze canonical peptides across isoforms</p>
+            
+            <div class="module-content">
+                <h2>Overview</h2>
+                <p>The Canonical module provides comprehensive analysis of known peptides across different transcript isoforms. This module is divided into three complementary analysis approaches.</p>
+
+                <div class="subsection">
+                    <h3>1. Overview Analysis</h3>
+                    <p>Gene selection and basic visualization interface.</p>
+                    <div class="feature-box">
+                        <h4>Features:</h4>
+                        <ul>
+                            <li>Gene search and selection</li>
+                            <li>Basic gene statistics display</li>
+                            <li>Transcript information visualization</li>
+                            <li>Quick peptide summary</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h3>2. Events-Centric Analysis</h3>
+                    <p>Focus your analysis on specific splicing events and their peptide consequences.</p>
+                    <div class="feature-box">
+                        <h4>Features:</h4>
+                        <ul>
+                            <li>Splicing event selection</li>
+                            <li>Event-based peptide mapping</li>
+                            <li>Visualization of event impacts on peptides</li>
+                            <li>Comparative analysis across events</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h3>3. Isoform-Centric Analysis</h3>
+                    <p>Compare peptides across multiple transcript isoforms with detailed protease analysis.</p>
+                    <div class="feature-box">
+                        <h4>Features:</h4>
+                        <ul>
+                            <li>Multi-isoform peptide comparison</li>
+                            <li>Support for 6 proteases:
+                                <ul class="nested-list">
+                                    <li>Trypsin</li>
+                                    <li>Chymotrypsin</li>
+                                    <li>AspN</li>
+                                    <li>LysC</li>
+                                    <li>LysN</li>
+                                    <li>GluC</li>
+                                </ul>
+                            </li>
+                            <li>Configurable miscleavage settings (0-2 miscleavages)</li>
+                            <li>Interactive peptide alignment visualization</li>
+                            <li>Isoform-specific peptide identification</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="workflow-box">
+                    <h3>Usage Workflow</h3>
+                    <ol>
+                        <li>Start with <strong>Overview</strong> to select your gene of interest</li>
+                        <li>Use <strong>Events-Centric</strong> to analyze specific splicing events</li>
+                        <li>Apply <strong>Isoform-Centric</strong> for detailed peptide comparison across isoforms</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <!-- Novel Module -->
+        <section id="novel" class="content-section">
+            <h1>Novel Module</h1>
+            <p class="section-subtitle">Identify and characterize novel peptides from alternative splicing</p>
+            
+            <div class="module-content">
+                <h2>Overview</h2>
+                <p>The Novel module identifies and characterizes novel peptides that arise from alternative splicing events. These peptides may not be present in canonical protein databases but could have important biological functions.</p>
+
+                <div class="feature-box">
+                    <h3>Key Features</h3>
+                    <ul>
+                        <li>Novel peptide identification from alternative splicing events</li>
+                        <li>BLASTP integration for functional annotation</li>
+                        <li>Comparison with known peptide sequences</li>
+                        <li>Novel peptide characterization and properties</li>
+                    </ul>
+                </div>
+
+                <div class="subsection">
+                    <h3>BLASTP Annotation</h3>
+                    <p>The module uses BLASTP to search novel peptides against protein databases to:</p>
+                    <ul>
+                        <li>Identify similar known proteins</li>
+                        <li>Predict potential functions</li>
+                        <li>Assess evolutionary conservation</li>
+                        <li>Determine functional domains</li>
+                    </ul>
+                </div>
+
+                <div class="workflow-box">
+                    <h3>Workflow</h3>
+                    <ol>
+                        <li>Input alternative splicing events or transcripts</li>
+                        <li>Generate novel peptides from splicing variations</li>
+                        <li>Run BLASTP analysis for functional prediction</li>
+                        <li>Review annotated novel peptides</li>
+                        <li>Export results for further analysis</li>
+                    </ol>
+                </div>
+
+                <div class="output-box">
+                    <h3>Output</h3>
+                    <p>The module provides:</p>
+                    <ul>
+                        <li>List of novel peptides with their sequences</li>
+                        <li>BLASTP alignment results</li>
+                        <li>Functional annotations</li>
+                        <li>Peptide properties and characteristics</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Peptide Search Module -->
+        <section id="peptide-search" class="content-section">
+            <h1>Peptide Search Module</h1>
+            <p class="section-subtitle">Search for specific peptides across the database</p>
+            
+            <div class="module-content">
+                <h2>Overview</h2>
+                <p>The Peptide Search module provides a powerful interface to search for specific peptides across the entire IsoPepTracker database.</p>
+
+                <div class="feature-box">
+                    <h3>Search Capabilities</h3>
+                    <ul>
+                        <li>Search by peptide sequence</li>
+                        <li>Search by gene name</li>
+                        <li>Search by transcript ID</li>
+                        <li>Filter by peptide properties</li>
+                    </ul>
+                </div>
+
+                <div class="workflow-box">
+                    <h3>How to Use</h3>
+                    <ol>
+                        <li>Enter your search query (peptide sequence, gene, or ID)</li>
+                        <li>Apply filters if needed</li>
+                        <li>View search results</li>
+                        <li>Export results for further analysis</li>
+                    </ol>
+                </div>
+
+                <div class="output-box">
+                    <h3>Search Results</h3>
+                    <p>Results include:</p>
+                    <ul>
+                        <li>Matching peptide sequences</li>
+                        <li>Associated genes and transcripts</li>
+                        <li>Isoform information</li>
+                        <li>Peptide locations and properties</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Alternative Splicing Module -->
+        <section id="alternative-splicing" class="content-section">
+            <h1>Alternative Splicing Analysis Module</h1>
+            <p class="section-subtitle">Visualize and analyze alternative splicing events</p>
+            
+            <div class="module-content">
+                <h2>Overview</h2>
+                <p>The Alternative Splicing Analysis module provides comprehensive visualization and analysis of alternative splicing events and their impact on peptide generation.</p>
+
+                <div class="subsection">
+                    <h3>Supported Splicing Event Types</h3>
+                    <div class="event-types-grid">
+                        <div class="event-type-card">
+                            <strong>SE</strong>
+                            <span>Skipped Exon</span>
+                        </div>
+                        <div class="event-type-card">
+                            <strong>A3SS</strong>
+                            <span>Alternative 3' Splice Site</span>
+                        </div>
+                        <div class="event-type-card">
+                            <strong>A5SS</strong>
+                            <span>Alternative 5' Splice Site</span>
+                        </div>
+                        <div class="event-type-card">
+                            <strong>MXE</strong>
+                            <span>Mutually Exclusive Exons</span>
+                        </div>
+                        <div class="event-type-card">
+                            <strong>RI</strong>
+                            <span>Retained Intron</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feature-box">
+                    <h3>Input Support</h3>
+                    <ul>
+                        <li><strong>rMATS</strong> - Process and visualize rMATS output files</li>
+                        <li><strong>SplAdder</strong> - Compatible with SplAdder results</li>
+                    </ul>
+                </div>
+
+                <div class="feature-box">
+                    <h3>Key Features</h3>
+                    <ul>
+                        <li>Interactive visualization of splicing events</li>
+                        <li>Peptide consequence mapping</li>
+                        <li>Event statistics and quantification</li>
+                        <li>Comparison across conditions</li>
+                        <li>Export visualizations and data</li>
+                    </ul>
+                </div>
+
+                <div class="workflow-box">
+                    <h3>Workflow</h3>
+                    <ol>
+                        <li>Upload rMATS or SplAdder output files</li>
+                        <li>Select splicing event type to visualize</li>
+                        <li>Choose specific events or genes of interest</li>
+                        <li>View splicing visualization and peptide impacts</li>
+                        <li>Export results and figures</li>
+                    </ol>
+                </div>
+
+                <div class="output-box">
+                    <h3>Output</h3>
+                    <p>The module generates:</p>
+                    <ul>
+                        <li>Splicing event diagrams</li>
+                        <li>Affected peptide lists</li>
+                        <li>Statistical summaries</li>
+                        <li>Exportable visualizations</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('.nav-link').forEach(link => {
+            if (!link.classList.contains('external')) {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href').substring(1);
+                    const targetSection = document.getElementById(targetId);
+                    if (targetSection) {
+                        targetSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        // Update active link
+                        document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
+                        this.classList.add('active');
+                    }
+                });
+            }
+        });
+
+        // Update active navigation on scroll
+        window.addEventListener('scroll', () => {
+            const sections = document.querySelectorAll('section');
+            const scrollPos = window.scrollY + 100;
+            
+            sections.forEach(section => {
+                const top = section.offsetTop;
+                const height = section.offsetHeight;
+                const id = section.getAttribute('id');
+                
+                if (scrollPos >= top && scrollPos <= top + height) {
+                    document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
+                    document.querySelector(`.nav-link[href="#${id}"]`)?.classList.add('active');
+                }
+            });
+        });
+    </script>
 </body>
 </html>
