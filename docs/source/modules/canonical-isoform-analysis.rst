@@ -1,12 +1,12 @@
-Canonical Module
-================
+Canonical Isoform Analysis
+==========================
 
-The Canonical module provides comprehensive analysis of known peptides across different transcript isoforms. This module is divided into three complementary analysis approaches.
+The Canonical Isoform Analysis module provides comprehensive analysis of known peptides across different transcript isoforms. This module is divided into three complementary analysis approaches.
 
 Module Overview
 ---------------
 
-The Canonical module enables researchers to analyze canonical peptides through three distinct yet complementary approaches, allowing for comprehensive isoform-level peptide analysis.
+The Canonical Isoform Analysis module enables researchers to analyze canonical peptides through three distinct yet complementary approaches, allowing for comprehensive isoform-level peptide analysis.
 
 Analysis Approaches
 -------------------
