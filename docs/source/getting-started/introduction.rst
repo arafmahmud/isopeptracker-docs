@@ -41,7 +41,7 @@ Key Features
 
 * **Novel Isoform Analysis**: Identify and characterize novel peptides from alternative splicing
 * **BLASTP Integration**: Search peptides against protein databases for functional annotation
-* **AS Tool Support**: Process and visualize outputs from rMATS and SplAdder
+* **AS Tool Support**: Process and visualize peptide consequences from rMATS and SplAdder outputs
 
 Getting Started
 ---------------
@@ -52,4 +52,3 @@ To begin using IsoPepTracker:
 2. Choose the appropriate module for your analysis
 3. Follow the module-specific workflows described in this documentation
 
-For detailed information about each module, see the :doc:`../modules/canonical` section.
