@@ -13,7 +13,7 @@ IsoPepTracker is a powerful bioinformatics tool designed to visualize alternativ
    :align: center
    :width: 100%
    
-   IsoPepTracker workflow for alternative splicing analysis and peptide mapping
+   IsoPepTracker web application overview
 
 Purpose
 -------
