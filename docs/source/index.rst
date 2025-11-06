@@ -31,7 +31,6 @@ Key Features
    :caption: Getting Started
 
    getting-started/introduction
-   getting-started/overview
 
 .. toctree::
    :maxdepth: 2
