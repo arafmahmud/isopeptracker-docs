@@ -3,10 +3,6 @@ Canonical Isoform Analysis
 
 Analyze canonical peptides across isoforms.
 
-The Canonical module provides comprehensive analysis of known peptides across
-different transcript isoforms. It is divided into three complementary analysis
-approaches, accessible via the tabs at the top of the page.
-
 .. figure:: ../_static/analysis_parameters.png
    :alt: Analysis Parameters panel
    :align: center
@@ -15,17 +11,14 @@ approaches, accessible via the tabs at the top of the page.
    Analysis Parameters -- select a gene, enzyme, missed-cleavage allowance,
    and intron display mode before updating the view.
 
+The Canonical module provides comprehensive analysis of known peptides across
+different transcript isoforms. It is divided into three complementary analysis
+approaches, accessible via the tabs at the top of the page.
+
 1. Overview Analysis
 ~~~~~~~~~~~~~~~~~~~~
 
 Gene selection and basic visualization interface.
-
-**Features:**
-
-* Gene search and selection
-* Basic gene statistics display
-* Transcript information visualization
-* Quick peptide summary
 
 .. figure:: ../_static/overview.png
    :alt: Overview tab showing gene visualization
@@ -44,9 +37,8 @@ consequences.
 **Features:**
 
 * Splicing event selection
-* Event-based peptide mapping
 * Visualization of event impacts on peptides
-* Comparative analysis across events
+
 
 .. figure:: ../_static/event-centric_1.png
    :alt: Alternative Splicing Structure diagram
@@ -80,9 +72,9 @@ consequences.
    :align: center
    :width: 100%
 
-   All Events Peptide Comparison -- a genome-wide view of every splicing
+   All Events Peptide Comparison -- a gene-wide view of every splicing
    event (A3, SE, RI) overlaid on the transcript structures with
-   AS-affected peptides coloured by event type.
+   AS-affected peptides coloured.
 
 .. figure:: ../_static/event-centric_5.png
    :alt: All-events peptide summary table
@@ -111,11 +103,6 @@ analysis.
   - LysN
   - GluC
 
-* Configurable miscleavage settings (0--2 miscleavages)
-* Interactive peptide alignment visualization
-* Isoform-specific peptide identification
-* Single-isoform multi-enzyme coverage analysis
-* Advanced multi-isoform multi-enzyme matrix analysis
 
 .. figure:: ../_static/isoform-centric_1.png
    :alt: All isoforms visualization with highlighted peptides
@@ -131,8 +118,7 @@ analysis.
    :width: 100%
 
    Multi-Isoform Comparative Analysis -- select two or more isoforms to
-   visualize shared, unique, and universal peptides with colour-coded
-   mapping.
+   visualize their peptides and compare them.
 
 .. figure:: ../_static/isoform-centric_3.png
    :alt: Single isoform multi-enzyme coverage
