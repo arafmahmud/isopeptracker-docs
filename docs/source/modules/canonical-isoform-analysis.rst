@@ -27,7 +27,7 @@ Gene selection and basic visualization interface.
 * Transcript information visualization
 * Quick peptide summary
 
-.. figure:: ../_static/Overview.png
+.. figure:: ../_static/overview.png
    :alt: Overview tab showing gene visualization
    :align: center
    :width: 100%
