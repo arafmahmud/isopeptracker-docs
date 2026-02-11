@@ -7,7 +7,7 @@ The Canonical module provides comprehensive analysis of known peptides across
 different transcript isoforms. It is divided into three complementary analysis
 approaches, accessible via the tabs at the top of the page.
 
-.. figure:: ../_static/Analysis_control.png
+.. figure:: ../_static/analysis_parameters.png
    :alt: Analysis Parameters panel
    :align: center
    :width: 100%
@@ -27,7 +27,7 @@ Gene selection and basic visualization interface.
 * Transcript information visualization
 * Quick peptide summary
 
-.. figure:: ../_static/overview.png
+.. figure:: ../_static/Overview.png
    :alt: Overview tab showing gene visualization
    :align: center
    :width: 100%
@@ -48,26 +48,26 @@ consequences.
 * Visualization of event impacts on peptides
 * Comparative analysis across events
 
-.. figure:: ../_static/Events_centric_view_1.png
-   :alt: Events-centric view -- AS structure and events table
+.. figure:: ../_static/event-centric_1.png
+   :alt: Alternative Splicing Structure diagram
    :align: center
    :width: 100%
 
-   Alternative Splicing Analysis Overview showing the splicing structure
-   and a table of detected splicing events with their types and affected
-   transcripts.
+   Alternative Splicing Structure showing AS event types (A3SS, RI, SE)
+   mapped on the gene structure with genomic coordinates.
 
-.. figure:: ../_static/Events_centric_view_2.png
-   :alt: Peptide comparison visualization for a selected event
+.. figure:: ../_static/event-centric_2.png
+   :alt: Event selection and peptide comparison
    :align: center
    :width: 100%
 
-   Peptide Comparison visualization for a selected skipped-exon (SE) event,
+   Alternative Splicing Events table with selected event information and
+   Peptide Comparison visualization for a selected splicing event,
    highlighting the spliced region and affected peptides across transcript
    pairs.
 
-.. figure:: ../_static/Events_centric_view_3.png
-   :alt: Peptide table for a selected event
+.. figure:: ../_static/event-centric_3.png
+   :alt: Detailed peptide data table
    :align: center
    :width: 100%
 
@@ -75,16 +75,16 @@ consequences.
    positions, splice source, junction-spanning status, and AS-affected
    category.
 
-.. figure:: ../_static/Events_centric_view_4.png
+.. figure:: ../_static/event-centric_4.png
    :alt: All-events peptide comparison
    :align: center
    :width: 100%
 
    All Events Peptide Comparison -- a genome-wide view of every splicing
    event (A3, SE, RI) overlaid on the transcript structures with
-   AS-affected peptides coloured in red.
+   AS-affected peptides coloured by event type.
 
-.. figure:: ../_static/Events_centric_view_5.png
+.. figure:: ../_static/event-centric_5.png
    :alt: All-events peptide summary table
    :align: center
    :width: 100%
@@ -114,14 +114,52 @@ analysis.
 * Configurable miscleavage settings (0--2 miscleavages)
 * Interactive peptide alignment visualization
 * Isoform-specific peptide identification
+* Single-isoform multi-enzyme coverage analysis
+* Advanced multi-isoform multi-enzyme matrix analysis
 
-.. figure:: ../_static/Overview_1.png
-   :alt: Isoform-centric peptide visualization
+.. figure:: ../_static/isoform-centric_1.png
+   :alt: All isoforms visualization with highlighted peptides
    :align: center
    :width: 100%
 
-   Peptide Visualization showing peptide maps across all transcript
-   isoforms for the selected gene, enzyme, and cleavage settings.
+   All Isoforms Visualization with a highlighted isoform and its peptide
+   table showing peptide specificity (unique, shared, universal).
+
+.. figure:: ../_static/isoform-centric_2.png
+   :alt: Multi-isoform comparative analysis
+   :align: center
+   :width: 100%
+
+   Multi-Isoform Comparative Analysis -- select two or more isoforms to
+   visualize shared, unique, and universal peptides with colour-coded
+   mapping.
+
+.. figure:: ../_static/isoform-centric_3.png
+   :alt: Single isoform multi-enzyme coverage
+   :align: center
+   :width: 100%
+
+   Single Isoform Multi-Enzyme Coverage Analysis comparing peptide
+   coverage across multiple enzymes for a selected isoform with coverage
+   statistics.
+
+.. figure:: ../_static/isoform-centric_4.png
+   :alt: Advanced multi-isoform multi-enzyme matrix
+   :align: center
+   :width: 100%
+
+   Advanced Multi-Isoform Multi-Enzyme Matrix Analysis combining multiple
+   isoforms and enzymes for comprehensive multi-dimensional peptide
+   coverage analysis.
+
+.. figure:: ../_static/isoform-centric_5.png
+   :alt: Enzyme statistics and peptide specificity
+   :align: center
+   :width: 100%
+
+   Enzyme Statistics showing coverage percentages, peptide counts, and
+   unique peptide counts per isoform-enzyme combination, alongside
+   Peptide Specificity Analysis.
 
 Usage Workflow
 ~~~~~~~~~~~~~~
