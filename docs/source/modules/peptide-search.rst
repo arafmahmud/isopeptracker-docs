@@ -1,28 +1,29 @@
 Peptide Search Module
 =====================
 
-Search for specific peptides across the database.
+Search for specific peptides across all genes and isoforms.
 
-The Peptide Search module provides a powerful interface to search for specific
-peptides across the entire IsoPepTracker database.
+The Peptide Search module uses BLASTP to search a peptide sequence across all
+genes and isoforms in the IsoPepTracker database, identifying homologous
+matches with detailed alignment statistics.
 
-Search Capabilities
-~~~~~~~~~~~~~~~~~~~
+Search Parameters
+~~~~~~~~~~~~~~~~~
 
-* Search by peptide sequence
-* Search by gene name
-* Search by transcript ID
-* Filter by peptide properties
-* BLASTP integration with configurable e-value, identity, and target thresholds
+* **Peptide Sequence** -- enter the query peptide sequence
+* **e-value Threshold** -- set the maximum e-value for filtering hits
+* **Min Identity %** -- minimum sequence identity percentage
+* **Max Targets** -- maximum number of target hits to return
 
 How to Use
 ~~~~~~~~~~
 
-1. Enter your search query (peptide sequence, gene, or ID).
-2. Set BLASTP parameters (e-value threshold, minimum identity, max targets).
-3. View search results with identity percentages, e-values, and bit scores.
-4. Expand results to view gene-level visualizations with BLAST match mapping.
-5. Export results for further analysis.
+1. Enter your peptide sequence.
+2. Configure BLASTP search parameters (e-value, minimum identity, max targets).
+3. Run the search and view results ranked by identity and bit score.
+4. Select a hit to view the gene structure visualization with the BLAST match
+   mapped onto transcript isoforms.
+5. Download results for further analysis.
 
 .. figure:: ../_static/peptide-search_1.png
    :alt: Peptide Search interface and results
@@ -47,8 +48,8 @@ Search Results
 
 Results include:
 
-* Matching peptide sequences
-* Associated genes and transcripts
-* Identity percentages and e-values
-* Bit scores and best-match indicators
+* Gene ID and gene symbol
+* Transcript ID
+* Identity percentage and e-value
+* Bit score and best-match indicator
 * Interactive gene structure visualization with BLAST match mapping
