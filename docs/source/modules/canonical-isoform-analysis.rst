@@ -150,7 +150,27 @@ analysis.
 Usage Workflow
 ~~~~~~~~~~~~~~
 
-1. Start with **Overview** to select your gene of interest.
-2. Use **Events-Centric** to analyse specific splicing events.
-3. Apply **Isoform-Centric** for detailed peptide comparison across
-   isoforms.
+1. Start with **Analysis Parameters** to select your gene of interest,
+   configure the enzyme and missed-cleavage allowance, and click
+   **Update View**. This loads the gene structure with all transcript
+   isoforms and their peptide maps in the **Overview** tab.
+2. Use the **Events-Centric View** tab to analyse specific splicing events:
+
+   a. Click on an event from the **Alternative Splicing Events** table
+      to view the event structure and affected transcripts.
+   b. Select the pair of spliced-in and spliced-out transcripts for which
+      you want to compare peptide sequences, then click **Compare Peptides**
+      to see the peptide comparison due to the selected AS event.
+   c. Click **Load All Event Peptides** to view all events overlaid
+      on the gene structure and their combined peptide summary.
+3. Use the **Isoform-Centric View** tab to explore peptides at the
+   isoform level. Click **Load Isoforms** to launch the analysis, then:
+
+   a. Pick an isoform from the **Choose Isoform to Highlight** dropdown
+      to view its peptide map and specificity table.
+   b. Select two or more isoforms and click **Compare Selected Isoforms**
+      to see which peptides are unique, shared, or universal.
+   c. Run **Single Isoform Multi-Enzyme Coverage** to compare how
+      different enzymes cover a single isoform.
+   d. Run **Advanced Multi-Isoform Multi-Enzyme Matrix** to compare
+      coverage across multiple isoforms and enzymes at once.
