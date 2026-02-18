@@ -18,8 +18,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'IsoPepTracker'
-copyright = '2023, Huang Lab at UAB'
-author = 'Huang Lab at UAB'
+copyright = '2026, Huang Lab at UAB'
+author = 'IsoPepTracker was developed and maintained by Araf Mahmud and Chen Huang at the Chen Huang Lab @UAB.'
 
 # The full version, including alpha/beta/rc tags
 release = '1.0'
