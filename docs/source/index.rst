@@ -14,6 +14,13 @@ IsoPepTracker provides four main modules for comprehensive peptide and alternati
 * **Peptide Search**: Search for specific peptides across all genes and isoforms in the database  
 * **Alternative Splicing**: Visualize and analyze peptide impact of alternative splicing events
 
+.. note::
+
+   **Performance Note for Large Genes**
+
+   Most genes (e.g. TP53) load within seconds. Exceptionally large genes
+   such as TTN, which contains over 300 exons, may require approximately
+   10 minutes to fully load due to the volume of transcript and peptide data.
 
 
 .. toctree::
@@ -31,13 +38,7 @@ IsoPepTracker provides four main modules for comprehensive peptide and alternati
    modules/peptide-search
    modules/alternative-splicing
 
-.. note::
 
-   **Performance Note for Large Genes**
-
-   Most genes (e.g. TP53) load within seconds. Exceptionally large genes
-   such as TTN, which contains over 300 exons, may require approximately
-   10 minutes to fully load due to the volume of transcript and peptide data.
 
 .. toctree::
    :maxdepth: 2
