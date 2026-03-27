@@ -1,7 +1,7 @@
 Canonical Isoform Analysis
 ==========================
 
-Analyze canonical peptides across isoforms.
+Analyze canonical peptides across protein isoforms.
 
 .. figure:: ../_static/analysis_parameters.png
    :alt: Analysis Parameters panel
@@ -12,7 +12,7 @@ Analyze canonical peptides across isoforms.
    and intron display mode before updating the view.
 
 The Canonical module provides comprehensive analysis of known peptides across
-different transcript isoforms. It is divided into three complementary analysis
+different protein isoforms. It is divided into three complementary analysis
 approaches, accessible via the tabs at the top of the page.
 
 1. Overview Analysis
@@ -25,7 +25,7 @@ Gene selection and basic visualization interface.
    :align: center
    :width: 100%
 
-   The Overview tab shows the full gene structure with all transcript
+   The Overview tab shows the full gene structure with all protein
    isoforms and their peptide maps at a glance.
 
 2. Events-Centric Analysis
@@ -88,12 +88,12 @@ consequences.
 3. Isoform-Centric Analysis
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Compare peptides across multiple transcript isoforms with detailed protease
+Compare peptides across multiple protein isoforms with detailed protease
 analysis.
 
 **Features:**
 
-* Multi-isoform peptide comparison
+* Multi-protein-isoform peptide comparison
 * Support for 6 proteases:
 
   - Trypsin
@@ -105,37 +105,37 @@ analysis.
 
 
 .. figure:: ../_static/isoform-centric_1.png
-   :alt: All isoforms visualization with highlighted peptides
+   :alt: All protein isoforms visualization with highlighted peptides
    :align: center
    :width: 100%
 
-   All Isoforms Visualization with a highlighted isoform and its peptide
+   All Isoforms Visualization with a highlighted protein isoform and its peptide
    table showing peptide specificity (unique, shared, universal).
 
 .. figure:: ../_static/isoform-centric_2.png
-   :alt: Multi-isoform comparative analysis
+   :alt: Multi-protein-isoform comparative analysis
    :align: center
    :width: 100%
 
-   Multi-Isoform Comparative Analysis -- select two or more isoforms to
+   Multi-Isoform Comparative Analysis -- select two or more protein isoforms to
    visualize their peptides and compare them.
 
 .. figure:: ../_static/isoform-centric_3.png
-   :alt: Single isoform multi-enzyme coverage
+   :alt: Single protein isoform multi-enzyme coverage
    :align: center
    :width: 100%
 
    Single Isoform Multi-Enzyme Coverage Analysis comparing peptide
-   coverage across multiple enzymes for a selected isoform with coverage
+   coverage across multiple enzymes for a selected protein isoform with coverage
    statistics.
 
 .. figure:: ../_static/isoform-centric_4.png
-   :alt: Advanced multi-isoform multi-enzyme matrix
+   :alt: Advanced multi-protein-isoform multi-enzyme matrix
    :align: center
    :width: 100%
 
    Advanced Multi-Isoform Multi-Enzyme Matrix Analysis combining multiple
-   isoforms and enzymes for comprehensive multi-dimensional peptide
+   protein isoforms and enzymes for comprehensive multi-dimensional peptide
    coverage analysis.
 
 .. figure:: ../_static/isoform-centric_5.png
@@ -144,7 +144,7 @@ analysis.
    :width: 100%
 
    Enzyme Statistics showing coverage percentages, peptide counts, and
-   unique peptide counts per isoform-enzyme combination, alongside
+   unique peptide counts per protein isoform-enzyme combination, alongside
    Peptide Specificity Analysis.
 
 Usage Workflow
@@ -153,7 +153,7 @@ Usage Workflow
 1. Start with **Analysis Parameters** to select your gene of interest,
    configure the enzyme and missed-cleavage allowance, and click
    **Update View**. This loads the gene structure with all transcript
-   isoforms and their peptide maps in the **Overview** tab.
+   protein isoforms and their peptide maps in the **Overview** tab.
 2. Use the **Events-Centric View** tab to analyse specific splicing events:
 
    a. Click on an event from the **Alternative Splicing Events** table
@@ -164,13 +164,13 @@ Usage Workflow
    c. Click **Load All Event Peptides** to view all events overlaid
       on the gene structure and their combined peptide summary.
 3. Use the **Isoform-Centric View** tab to explore peptides at the
-   isoform level. Click **Load Isoforms** to launch the analysis, then:
+   protein isoform level. Click **Load Isoforms** to launch the analysis, then:
 
-   a. Pick an isoform from the **Choose Isoform to Highlight** dropdown
+   a. Pick a protein isoform from the **Choose Isoform to Highlight** dropdown
       to view its peptide map and specificity table.
-   b. Select two or more isoforms and click **Compare Selected Isoforms**
+   b. Select two or more protein isoforms and click **Compare Selected Isoforms**
       to see which peptides are unique, shared, or universal.
    c. Run **Single Isoform Multi-Enzyme Coverage** to compare how
-      different enzymes cover a single isoform.
+      different enzymes cover a single protein isoform.
    d. Run **Advanced Multi-Isoform Multi-Enzyme Matrix** to compare
-      coverage across multiple isoforms and enzymes at once.
+      coverage across multiple protein isoforms and enzymes at once.

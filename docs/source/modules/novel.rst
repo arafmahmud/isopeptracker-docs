@@ -19,12 +19,12 @@ Workflow
 ~~~~~~~~
 
 1. Upload FASTA nucleotide sequences (RNA-seq transcripts, long-read
-   sequences, or predicted isoforms).
+   sequences, or predicted protein isoforms).
 2. Configure analysis parameters (minimum protein length, genetic code,
    strand, gene overlap threshold).
 3. Execute ORF finding and select the best open reading frame.
 4. Search candidate genes and select a reference gene for comparison.
-5. Compare novel isoform peptides against known reference isoforms.
+5. Compare novel protein isoform peptides against known reference protein isoforms.
 6. Review peptide specificity and export results.
 
 .. figure:: ../_static/novel-isoform-discovery_1.png
@@ -46,13 +46,13 @@ Workflow
    are matched for reference comparison.
 
 .. figure:: ../_static/novel-isoform-discovery_3.png
-   :alt: Novel isoform comparative analysis
+   :alt: Novel protein isoform comparative analysis
    :align: center
    :width: 100%
 
-   Novel Isoform Analysis showing a multi-isoform comparative
+   Novel Isoform Analysis showing a multi-protein-isoform comparative
    visualization of the novel sequence against reference transcripts,
-   with highlighted isoform peptides and their specificity classification
+   with highlighted protein isoform peptides and their specificity classification
    (unique, shared).
 
 Output
@@ -62,6 +62,6 @@ The module provides:
 
 * List of novel peptides with their sequences
 * ORF quality scores and properties
-* Multi-isoform comparative visualizations
+* Multi-protein-isoform comparative visualizations
 * Peptide specificity analysis (unique vs shared)
 * Exportable results and figures
