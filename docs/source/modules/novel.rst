@@ -1,5 +1,5 @@
-Novel Isoform Analysis
-======================
+Novel mRNA Isoform Analysis
+============================
 
 Identify and characterize novel peptides from alternative splicing.
 

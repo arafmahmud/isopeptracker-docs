@@ -9,8 +9,8 @@ Quick Start
 
 IsoPepTracker provides four main modules for comprehensive peptide and alternative splicing analysis:
 
-* **Canonical Isoform Analysis**: Analyze canonical peptides across protein isoforms
-* **Novel Isoform Analysis**: Identify and characterize novel mRNA isoforms using peptides
+* **Canonical Protein Isoform Analysis**: Analyze canonical peptides across protein isoforms
+* **Novel mRNA Isoform Analysis**: Identify and characterize novel mRNA isoforms using peptides
 * **Peptide Search**: Search for specific peptides across all genes and protein isoforms in the database  
 * **Alternative Splicing**: Visualize and analyze peptide impact of alternative splicing events
 

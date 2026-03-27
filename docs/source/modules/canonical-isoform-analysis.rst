@@ -1,5 +1,5 @@
-Canonical Isoform Analysis
-==========================
+Canonical Protein Isoform Analysis
+===================================
 
 Analyze canonical peptides across protein isoforms.
 
