@@ -82,8 +82,9 @@ Citation
 
 If you use IsoPepTracker in your research, please cite:
 
-.. note::
-   Citation information will be provided once the manuscript is published.
+   Mahmud A, Huang C. IsoPepTracker: An interactive web application for
+   peptide-driven isoform analysis. PLoS Comput Biol. 2026;22(6):e1014324.
+   https://doi.org/10.1371/journal.pcbi.1014324
 
 Development Team
 ----------------
@@ -130,4 +131,6 @@ A: Yes, contributions are welcome! Please see the GitHub repository for guidelin
 
 **Q: Is there a publication about IsoPepTracker?**
 
-A: The manuscript is in preparation. Citation information will be updated when available.
+A: Yes. IsoPepTracker is published in *PLoS Computational Biology* (2026):
+Mahmud A, Huang C. "IsoPepTracker: An interactive web application for peptide-driven
+isoform analysis." https://doi.org/10.1371/journal.pcbi.1014324
